@@ -114,9 +114,9 @@ class _SignUpState extends State<SignUp> {
                               stops: [0.05, 0.8, 0.5],
                             ),
                           ),
-                          child: const Padding(
-                            padding:
-                                EdgeInsets.only(left: 24.0, top: 24, right: 24),
+                          child: Padding(
+                            padding: const EdgeInsets.only(
+                                left: 24.0, top: 24, right: 24),
                             child: Row(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
